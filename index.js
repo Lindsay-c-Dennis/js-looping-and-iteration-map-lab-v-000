@@ -13,4 +13,6 @@ function attributesToPhrase(drivers) {
    var rObj = {};
    rObj[obj.key] = obj.value;
    return rObj; });
+   
+   for (obj in )
 }
