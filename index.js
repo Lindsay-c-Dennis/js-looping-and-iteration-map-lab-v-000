@@ -10,7 +10,7 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(drivers) {
   const reformattedArray = drivers.map(obj =>{ 
-   var rObj = {};
+   let rObj = {};
    rObj[obj.key] = obj.value;
    return rObj; });
    
