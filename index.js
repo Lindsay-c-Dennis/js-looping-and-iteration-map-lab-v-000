@@ -15,6 +15,6 @@ function attributesToPhrase(drivers) {
    return rObj; });
    
    for (const obj in rObj) {
-     return `${obj[name]} is from ${obj[hometown]}`;
+     return `${obj.key} is from ${obj.value}`;
    }
 }
