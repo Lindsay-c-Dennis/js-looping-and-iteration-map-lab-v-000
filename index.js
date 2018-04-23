@@ -5,6 +5,7 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
+  const obj = drivers.map(function (driver) {return }) 
   
 }
 
@@ -15,6 +16,6 @@ function attributesToPhrase(drivers) {
    return rObj; });
    
    for (const obj in reformattedArray) {
-     return `${obj.key} is from ${obj.value}`;
+     return `${obj[key]} is from ${obj[value]}`;
    }
 }
