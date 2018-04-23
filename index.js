@@ -9,7 +9,6 @@ function nameToAttributes(drivers) {
     first = driver.split(" ")[0];
     last = driver.split(" ")[1];
   }) 
-  drivers.map()
   
 }
 
