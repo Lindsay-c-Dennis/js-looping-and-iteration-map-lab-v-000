@@ -14,5 +14,5 @@ function attributesToPhrase(drivers) {
    rObj[obj.key] = obj.value;
    return rObj; });
    
-   for (obj in )
+   for (const obj in reformattedArray )
 }
