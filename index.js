@@ -14,7 +14,7 @@ function attributesToPhrase(drivers) {
    rObj[obj.key] = obj.value;
    return rObj; });
    
-   for (const obj in rObj) {
+   for (const obj in reformattedArray) {
      return `${obj.key} is from ${obj.value}`;
    }
 }
