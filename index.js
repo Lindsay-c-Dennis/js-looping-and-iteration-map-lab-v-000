@@ -14,12 +14,7 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  const reformattedArray = drivers.map(obj =>{ 
-   let rObj = {};
-   rObj[obj.key] = obj.value;
-   return rObj; });
-   
-   for (const obj in reformattedArray) {
-     return `${obj[key]} is from ${obj[value]}`;
-   }
+  return drivers.map(function (driver) {
+    
+  }
 }
