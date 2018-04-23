@@ -8,7 +8,8 @@ function nameToAttributes(drivers) {
   drivers.map(function (driver) {
     first = driver.split(" ")[0];
     last = driver.split(" ")[1];
-  }) 
+    return {firstName: first, lastName: last};
+  }) ;
   
 }
 
